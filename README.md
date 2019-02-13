@@ -1,19 +1,19 @@
-# _Car Dealership_
+# _Queen Attack_
 
-#### _Car Dealership 2/11/2019_
+#### _Queen Attack 2/11/2019_
 
 #### By _**Pavel Zanchuk**_
 
 ## Description
 
-_This is a website to find a car based on user's input._
+_This is a website to find if Queen can attack another figure._
 
 ### Specs
 | Behavior - Plain English | Input | Output |
 | :-------------     | :------------- | :------------- |
-| **Program is checking if there is a car that costs less then inputed number** | User input: 5000 | Output: "car"|
-| **Program is checking if a car's milage is less then inputed number** | User input: 45000 | Output: "car"|
-| **Program responds if you want to continue after calculations are done** | User input: y | Output: "Enter maximum price: "|
+| **Program is checking if Queen can attack figure horizontally or vertically** | User input: 2,4 and 2,7 | Output: true |
+| **Program is checking if Queen can attack figure diagonally** | User input: 2,4 and 3,5 | Output: true |
+| **Program is checking if Queen can not attack figure ** | User input: 2,4 and 7,1 | Output: false |
 
 
 
