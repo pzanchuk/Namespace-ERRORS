@@ -1,7 +1,6 @@
 using System;
 
-
-namespace Namespace.Models {
+namespace MyQueen{
 
   class Queen
   {
@@ -20,7 +19,7 @@ namespace Namespace.Models {
       return Xcoord;
     }
 
-    public int GetXcoord()
+    public int GetYcoord()
     {
       return Ycoord;
     }
