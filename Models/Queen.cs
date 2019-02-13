@@ -27,12 +27,21 @@ namespace MyQueen{
     public bool AttackChecker(int x, int y)
     {
      if(Xcoord == x || Ycoord == y){
+       Console.WriteLine();
+       Console.WriteLine("Queen is going to destroy King!");
+       Console.WriteLine();
        return true;
      }else if(Math.Abs(Xcoord - x) == Math.Abs(Ycoord - y))
      {
+       Console.WriteLine();
+       Console.WriteLine("Queen is going to destroy King!");
+       Console.WriteLine();
        return true;
      }else
      {
+       Console.WriteLine();
+       Console.WriteLine("King is safe here! For now...");
+       Console.WriteLine();
        return false;
      }
 
